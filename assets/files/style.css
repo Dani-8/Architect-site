@@ -36,7 +36,7 @@
     background-color: rgb(24, 24, 24);
     height: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     font-size: 14px;
 }
@@ -44,7 +44,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
+    background-color: lightcoral;
 }
 .top-nav-text p{
     margin: 0 25px;
@@ -52,6 +52,17 @@
 
 }
 
+.top-nav-icon{
+    background-color: rgb(192, 71, 71);
+    display: flex;      
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.top-nav-icon i{
+    color: yellow;
+
+}
 
 .nav-bottom{
     background-color: rgba(61, 186, 61, 0.289);
