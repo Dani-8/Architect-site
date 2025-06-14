@@ -10,18 +10,34 @@
     width: 100%;
     height: 100vh;
     position: relative;
-
+    margin-bottom: 250px;
 
 }
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+/* HEADER */
+/* HEADER */
 
 .header{
     background-color: rgb(34, 29, 25);
     width: 100%;
-    height: 150px;
+    /* height: 150px; */
     display: flex;
     flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+
+/* TOP NAV */
+/* TOP NAV */
+/* TOP NAV */
+/* TOP NAV */
+/* TOP NAV */
+/* TOP NAV */
+
 
 
 .nav-top{
@@ -30,7 +46,6 @@
     height: 40px;
     padding: 0 80px;
 }
-
 
 .top-nav-container{
     background-color: rgb(24, 24, 24);
@@ -44,31 +59,105 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: lightcoral;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    padding: 20px 0;
+    flex: 7;
+    /* background-color: lightcoral; */
 }
-.top-nav-text p{
+.top-nav-text ul{
+    list-style: none;
+    display: flex;
+}
+.top-nav-text ul li{
     margin: 0 25px;
+    cursor: pointer;
     color: white;
-
 }
+
 
 .top-nav-icon{
-    background-color: rgb(192, 71, 71);
+    /* background-color: rgb(192, 71, 71); */
     display: flex;      
+    height: 100%;
     justify-content: flex-end;
     align-items: center;
+    flex: 3;    
+    margin: 0 35px;
 
 }
 .top-nav-icon i{
-    color: yellow;
-
+    color: rgba(199, 199, 199, 0.74);
+    font-size: 18px;
+    margin: 0 15px;
+    cursor: pointer;
 }
+
+
+
+
+/* BOTTOM NAV */
+/* BOTTOM NAV */
+/* BOTTOM NAV */
+/* BOTTOM NAV */
+/* BOTTOM NAV */
+
+
 
 .nav-bottom{
     background-color: rgba(61, 186, 61, 0.289);
     width: 100%;
     height: 110px;
+    padding: 0 80px;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
 }
+.bottom-nav-container{
+    background-color: rgb(75, 73, 73);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    /* top: 10px; */
+}
+
+.logo{
+    /* background-color: lightcoral; */
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+}
+.logo img {
+    width: 100%;
+}
+
+.nav-links ul{
+    list-style: none;
+    display: flex;
+}
+.nav-links ul li{
+    color: white;
+    margin: 0 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+.nav-links ul .active::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: calc(100% - 560px);
+    background-color: aliceblue;
+    height: 30px;
+    width: 2px;
+    border-radius: 100px;
+}
+
 
 
 
