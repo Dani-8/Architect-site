@@ -113,7 +113,7 @@
     background-color: rgb(75, 73, 73);
     /* background-color: rgba(114, 112, 109, 0.782); */
     width: 100%;
-    height: 110px;
+    height: 100px;
     padding: 0 80px;
     position: sticky;
     top: 0px;
@@ -152,6 +152,7 @@
 .nav-links ul{
     list-style: none;
     height: 100%;
+    padding-bottom: 40px;
     display: flex;
     align-items: center;
 }
@@ -159,7 +160,10 @@
     color: white;
     position: relative;
     margin: 0 30px;
-    padding: 45px 0;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    /* padding: 45px 0 0; */
     text-transform: uppercase;
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -185,6 +189,7 @@
     top: 0;
     left: 20px;
     width: 3px;
+    
     transform: scaley(0);
     border-radius: 100px;
     height: 30px;
