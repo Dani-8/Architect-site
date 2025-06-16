@@ -515,12 +515,14 @@
 /* THIRD SECTION */
 
 
+
+
 .thr-sect{
     /* background-color: rgb(63, 129, 151); */
     width: 100%;
     /* height: 100vh; */
     position: relative;
-    margin-bottom: 2510px;
+    margin-bottom: 50px;
 
     display: flex;
     justify-content: center;
@@ -714,6 +716,144 @@
     padding: 5px 15px;
     background-color: #baff00;
 }
+
+
+
+
+
+
+
+/* FORTH SECTION */
+/* FORTH SECTION */
+/* FORTH SECTION */
+/* FORTH SECTION */
+/* FORTH SECTION */
+/* FORTH SECTION */
+
+
+
+.forth-sect{
+    /* background-color: rgb(46, 137, 168); */
+    width: 100%;
+    /* height: 100vh; */
+    position: relative;
+    margin-bottom: 50px;
+    padding: 50px 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+.forth-fcont{
+    /* background-color: lightgoldenrodyellow; */
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 0;
+
+}
+
+
+
+.image-box{
+    /* background-color: lightpink; */
+    width: 50%;
+    height: 500px;
+}
+.image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.forth-sect-text-cont{
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    right: 0;
+    top: 00px;
+    /* margin-right: 80px; */
+    padding: 30px;
+    width: 65%;
+    height: 550px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.forth-sect-text-cont .text-cont{
+    /* background-color: rgb(139, 134, 134); */
+    width: 80%;
+    padding: 20px;
+}
+.forth-sect-text-cont .text-cont h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+    width: 80%;
+    /* background-color: black; */
+}
+.forth-sect-text-cont .text-cont h1 span{
+    background-color: #baff00;  
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: rgb(34, 34, 34);
+
+}
+.forth-sect-text-cont .text-cont p{
+    color: white;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 30px;
+    width: 90%;
+
+}
+
+
+
+
+.forth-sect-icons-cont{
+    /* background-color: lightpink; */
+    width: 80%;
+}
+.forth-sect-icons-cont img{
+    margin: 10px 20px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
