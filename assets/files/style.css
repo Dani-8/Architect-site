@@ -915,8 +915,9 @@
     margin-bottom: 50px;
     padding: 50px 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 }
 .team-cont{
     width: 80%;
@@ -1016,7 +1017,7 @@
     opacity: 0;
 
 }
-.prof-img-box:hover::before{
+.profile:hover .prof-img-box::before{
     opacity: 1;
 }
 .prof-img-box img{
@@ -1042,7 +1043,7 @@
     transition: .3s linear;
 
 }
-.prof-img-box:hover .profiles-links {
+.profile:hover .profiles-links {
     display: flex;
 }
 
@@ -1086,26 +1087,32 @@
 
 
 
-/*  */
-
-
+/* PROJECTS */
+/* PROJECTS */
+/* PROJECTS */
+/* PROJECTS */
+/* PROJECTS */
+/* PROJECTS */
 
 
 
 
 .proj-cont{
-    width: 80%;
+    width: 100%;
+    /* height: 100vh; */
     /* background-color: lightblue; */
     display: flex;
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
+
+    margin: 150px 0;
 }
 
 
 
 
-.team-heading{
+.project-heading{
     /* background-color: lightpink; */
     position: relative;
     margin: 0 auto;
@@ -1117,7 +1124,7 @@
     justify-content: flex-start;
 
 }
-.team-heading h1{
+.project-heading h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
     background-color: #baff00;
@@ -1125,10 +1132,9 @@
     padding: 5px 25px;
     border-radius: 10px;
 }
-.team-heading h1::before{
-    content: "OUR TEAM";
+.project-heading h1::before{
+    content: "PROJECTS";
     font-size: 85px;
-    /* color: #baff00; */
     text-transform: uppercase;
     -webkit-text-stroke: 1px rgba(187, 255, 0, 0.645);
     -webkit-text-fill-color: transparent;
@@ -1139,6 +1145,173 @@
     left: 30px;
 
 }
+
+
+
+
+
+
+
+.projects{
+    /* background-color: rgb(219, 105, 198); */
+    /* max-width: 1450px; */
+    width: 95%;
+    height: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+
+    box-sizing: border-box;
+}
+
+
+
+
+
+.project{
+    /* background-color: lightskyblue; */
+    width: 370px;
+    height: 600px;
+    position: relative;
+    margin: 10px;
+}
+.project::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.542);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s linear;
+}
+.project:hover::before{
+    opacity: 1;
+}
+
+
+.proj-img-box{
+    background-color: green;
+    height: 100%;
+    width: 100%;
+}
+.proj-img-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.proj-context{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    transition: .5s linear;
+    opacity: 0;
+}
+.project:hover .proj-context{
+    opacity: 1;
+}
+
+.proj-context h1{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.proj-context p{
+    color: #baff00;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+.proj-btn{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+    background-color: #baff00;
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+
+    opacity: 0;
+    transition: .3s linear;
+    
+}
+.project:hover .proj-btn{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
