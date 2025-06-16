@@ -799,7 +799,7 @@
     /* background-color: black; */
 }
 .forth-sect-text-cont .text-cont h1 span{
-    background-color: #baff00;  
+    background-color: #baff00; 
     padding: 5px 10px;
     border-radius: 10px;
     color: rgb(34, 34, 34);
@@ -908,18 +908,243 @@
 
 
 .fifth-sect{
-    background-color: rgb(46, 137, 168);
+    /* background-color: rgb(46, 137, 168); */
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
     margin-bottom: 50px;
     padding: 50px 0;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    /* align-items: center; */
+}
+.team-cont{
+    width: 80%;
+    /* background-color: lightblue; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
 
+
+
+
+.team-heading{
+    /* background-color: lightpink; */
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
 }
+.team-heading h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    background-color: #baff00;
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+.team-heading h1::before{
+    content: "OUR TEAM";
+    font-size: 85px;
+    /* color: #baff00; */
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgba(187, 255, 0, 0.645);
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    left: 30px;
+
+}
+
+
+
+/* TEAM */
+/* TEAM */
+/* TEAM */
+/* TEAM */
+/* TEAM */
+/* TEAM */
+
+
+
+
+.team-profiles{
+    /* background-color: rgb(219, 105, 198); */
+    max-width: 1100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: 0 auto;
+}
+.profile{
+    /* background-color: lightslategray; */
+    width: 270px;
+    height: 300px;
+    margin: 15px;
+
+}
+
+
+
+
+
+.prof-img-box{
+    background: #000;
+    width: 100%;
+    height: 75%;
+    position: relative;
+}
+.prof-img-box::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(187, 255, 0, 0.7);
+    height: 100%;
+    transition: .3s linear;
+    width: 100%;
+    opacity: 0;
+
+}
+.prof-img-box:hover::before{
+    opacity: 1;
+}
+.prof-img-box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.profiles-links{
+    /* background-color: lightpink; */
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    width: 80%;
+    height: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: .3s linear;
+
+}
+.prof-img-box:hover .profiles-links {
+    display: flex;
+}
+
+
+.profiles-links i{
+    margin: 0 10px;
+    font-size: 18px;
+    opacity: .3;
+    transition: .3s linear;
+    cursor: pointer;
+}
+.profiles-links i:hover{
+    opacity: 1;
+}
+
+
+
+
+
+.prof-context{
+    /* background: #c7a2a2; */
+    width: 100%;
+    height: 25%;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prof-context h1{
+    font-size: 22px;
+    font-weight: 300;
+}
+.prof-context p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+
+/*  */
+
+
+
+
+
+
+.proj-cont{
+    width: 80%;
+    /* background-color: lightblue; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.team-heading{
+    /* background-color: lightpink; */
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+.team-heading h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    background-color: #baff00;
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+.team-heading h1::before{
+    content: "OUR TEAM";
+    font-size: 85px;
+    /* color: #baff00; */
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgba(187, 255, 0, 0.645);
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    left: 30px;
+
+}
+
+
+
+
+
+
 
 
 
