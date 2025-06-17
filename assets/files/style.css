@@ -1016,6 +1016,7 @@
 .prof-img-box::before{
     content: "";
     position: absolute;
+    background-color: rgba(187, 255, 0, 0.7);
     height: 100%;
     transition: .3s linear;
     width: 100%;
@@ -1163,7 +1164,7 @@
     width: 95%;
     height: 100%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
     margin: 50px auto;
