@@ -263,6 +263,8 @@
     width: 100%;
     /* height: 250px; */
 
+    position: absolute;
+    top: 40px;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 45px;
@@ -278,9 +280,9 @@
     position: absolute;
     display: block;
     content: "";
-    height: calc(100% - 50px);
+    height: calc(100% - 70px);
     width: 160px;
-    border-top: 120px solid #baff00;
+    border-top: 110px solid #baff00;
     border-left: 120px solid #baff00;
     border-bottom: 50px solid #baff00;
 
@@ -300,6 +302,7 @@
 .btn{
     background-color: transparent;
     position: relative;
+    top: 80px;
     outline: nonw;
     border: 3px solid rgb(255, 255, 255);
     padding: 20px 40px;
@@ -337,14 +340,14 @@
 
 .vertical-text{
     position: absolute;
-    top: 50%;
-    right: 50px;
+    bottom: 300px;
+    right: 40px;
     width: 200px;
     color: rgb(246, 246, 246);
     transform: rotate(-90deg);
 }
 .vertical-text h1{
-    font-size: 15px;
+    font-size: 13px;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 800;
@@ -422,7 +425,9 @@
 .sec-fcont{
     /* background-color: lightgoldenrodyellow; */
     width: 80%;
-    padding: 100px;
+    padding: 100px 0;
+    margin: 0 auto;
+
 
     display: flex;
     justify-content: center;
